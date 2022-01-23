@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4784373013315720128}
   - component: {fileID: 4784373013315720129}
   - component: {fileID: 3413031643001792329}
+  - component: {fileID: 42416804063315929}
   - component: {fileID: 2057144663000004324}
   - component: {fileID: 3036616615659735392}
   - component: {fileID: 8550750451468130700}
@@ -115,13 +116,39 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 4784373013315720134}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b7c69851b011289458f0f9fbf58cafe8, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.13, y: 1.58}
+  m_Offset: {x: 0, y: 0.016548872}
+  m_Size: {x: 1.13, y: 1.5469023}
   m_Direction: 0
+--- !u!61 &42416804063315929
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784373013315720134}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: b7c69851b011289458f0f9fbf58cafe8, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029482603, y: -0.70824605}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.13, y: 1.58}
+    newSize: {x: 0.44140625, y: 0.6171875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.45993853, y: 0.16350782}
+  m_EdgeRadius: 0
 --- !u!50 &2057144663000004324
 Rigidbody2D:
   serializedVersion: 4
@@ -137,11 +164,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 7
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &3036616615659735392
 MonoBehaviour:
@@ -185,3 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ae303722921594c980c3c13368a2a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 7
+  jumpSpeed: 25
+  jumpDelay: 0.75
+  rollDelay: 0.5
