@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2057144663000004324}
   - component: {fileID: 3036616615659735392}
   - component: {fileID: 8550750451468130700}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Doop (Player)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
