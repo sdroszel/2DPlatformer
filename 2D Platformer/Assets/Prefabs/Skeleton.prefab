@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 7469617872499105281}
   - component: {fileID: 7469617872499105282}
   - component: {fileID: 7469617872499105283}
-  - component: {fileID: 7469617872499105286}
+  - component: {fileID: 1166033321788216300}
   m_Layer: 11
-  m_Name: Slime
+  m_Name: Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 9542831e0628a7a43bad83014c4682e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 77d1b11499c14f74187e4033b18323db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,7 +118,7 @@ Animator:
   m_GameObject: {fileID: 7469617872499105284}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f8089201fea186849a027c703c93fc29, type: 2}
+  m_Controller: {fileID: 9100000, guid: dfac80aaa49bbde488494b782df773ca, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -153,21 +153,21 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5038526, y: -0.7014903}
+  m_Offset: {x: 0.38962793, y: -0.7014903}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.27, y: 1.58}
+    oldSize: {x: 1.45, y: 1.49}
     newSize: {x: 1.19, y: 0.74}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.08133364, y: 0.62847877}
+  m_Size: {x: 0.10720348, y: 0.62847877}
   m_EdgeRadius: 0
---- !u!60 &7469617872499105286
-PolygonCollider2D:
+--- !u!70 &1166033321788216300
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -179,28 +179,6 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.27, y: 1.58}
-    newSize: {x: 1.19, y: 0.74}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.4492201, y: -0.46381417}
-      - {x: 0.28823724, y: -0.2373398}
-      - {x: 0.095, y: -0.15028846}
-      - {x: -0.11176286, y: -0.1615597}
-      - {x: -0.22569442, y: -0.20479695}
-      - {x: -0.4334403, y: -0.3825427}
-      - {x: -0.5179488, y: -0.60450846}
-      - {x: -0.545, y: -0.74}
-      - {x: -0.5092201, y: -0.756186}
-      - {x: 0.47725424, y: -0.7539315}
-      - {x: 0.50020295, y: -0.741966}
-      - {x: 0.5069658, y: -0.68}
-      - {x: 0.48794872, y: -0.5845085}
+  m_Offset: {x: -0.21223307, y: -0.01347512}
+  m_Size: {x: 0.79645824, y: 1.4630498}
+  m_Direction: 0
